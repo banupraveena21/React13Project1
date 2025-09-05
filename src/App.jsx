@@ -15,12 +15,13 @@ import ResponsiveComponent from './components/MediaQueryDemo'
 import OnlineStatus from './components/OnlineStatusDemo'
 import GeolocationExample from './components/GeolocationDemo'
 import ThemeToggle from './components/ThemeDemo'
+import CounterDemo from './components/CounterDemo'
 
 
 function App() {
   return (
     <div>
-      <ThemeToggle />
+      <CounterDemo />
     </div>
   )
 }
